@@ -1,0 +1,21 @@
+{
+  "name": "proyectotau/from-MVC-to-CommandBus",
+  "description": "This is an example for MVC implementation and then refactorize to Layers Architecture with CommandBus",
+  "version": "0.1",
+  "type": "framework",
+  "keywords": ["MVC", "CommandBus", "Layers", "Architecture"],
+  "homepage": "https://github.com/proyectotau/from-MVC-to-CommandBus",
+  "time": "2018-10-04",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Javier Garrido",
+      "email": "ProyectoTAU2@gmail.com",
+      "homepage": "http://tauproject.sourceforge.net/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "classmap": ["Controller/", "View/", "Model/"]
+  }
+}
